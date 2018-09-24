@@ -1,0 +1,492 @@
+body,html{
+   
+}
+
+
+
+.dp{
+    width: 300px auto;
+    height: 180px;
+    
+     font-size: 12px;
+    font-weight: 500;
+    display: block;
+    padding: 0 auto;
+    margin: 30px auto;
+    text-align: center;
+}
+.dp>img{
+   padding: 5px;
+}
+.dp>.hidden {
+    display:none;
+}
+.dp> input[type=file]{
+    font-size: 10px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    display: flex;
+    width: auto;
+    margin: 25px 70px;
+    padding: auto 1px;
+}
+.dp>.button {
+     
+    padding: 10px;
+    
+    margin: 70px auto;
+    background: #e74c3c;
+    color: #fff;
+    width:100px;
+    font-size: 10px;
+}
+.dp>.button2 {
+     
+    padding: 10px;
+    
+    margin: 0 auto;
+    background: #e74c3c;
+    color: #fff;
+    width:100px;
+    font-size: 10px;
+}
+
+.dp>.button:hover {
+    background: #c0392b;
+    cursor: pointer;
+}
+.dp>.button2:hover {
+    background: #c0392b;
+    cursor: pointer;
+}
+
+.my-service{
+    text-align: center;
+    height: 250px;
+    
+    
+ box-shadow:  -15px 15px 20px -10px rgba(0,0,0,.10) ; 
+     
+}
+.my-service-inner-item>a>:hover{
+    color:#e74c3c;
+}
+
+.my-container{
+    
+    width:auto;
+}
+
+
+.my-section{
+    position: relative;
+    padding: 2em 0;
+}
+.my-top-section{
+  
+position: relative;
+    background: #f1f2f6;
+    padding: 7em 0 1em 0;
+}
+
+.my-service:hover{
+    background-color: #f8f8f8;
+ 
+}
+
+.edu-section{
+     border: 1px solid #eff0f4;
+    text-align: center;
+    width: 100% ;
+    padding: 20px;
+    margin-top: 30px;
+}
+.edu-section>tbody> tr> td {
+    
+    padding: 15px 0;
+    width: auto;
+    
+}
+.edu-section> thead{
+    background-color: #eff0f4;
+    padding: 10px;
+    box-sizing: border-box;
+    width: auto;
+    
+}
+.my-add-button{
+    margin: 20px auto;
+    float: right;
+}
+
+.my-navbar{
+    padding-top: 1em;
+    background-color: white;
+    z-index: 1;
+}
+
+.my-nav-ul > li{
+    
+}
+ .my-nav-ul > a{
+     
+
+color:black;
+}
+
+
+.my-section >div> ul{
+    list-style: armenian;
+}
+
+.my-section> div> ul>li{
+color: #ee3456;
+    font-size: 12px;
+display: table;
+}
+
+.footer_class> ul> li{
+    font-size: 15px;
+    font-weight: 100;
+    padding:  0 20px;
+    margin: 0 auto;
+}
+
+li{
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  width: auto;
+  color: #fff;
+    text-align: center;
+}
+
+    
+
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  margin-top: 2px;
+  right: 0;
+  background: #e74c3c;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #e74c3c;
+}
+
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit; 
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.4s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.file-upload{
+    max-width:100px;
+    display: inline-block;
+    margin-right: 30px;
+     
+}
+.my-form-label{
+    display: inline-block;
+    max-width: 300px;    
+    padding: 10px 0 0 10px;
+    text-align: left;
+    margin: 25px;
+    
+    
+}
+input[type="file"] {
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width:  auto;
+    font-size: 12px;
+    margin-right:30px;
+}
+.my-form-section{
+    padding: 10px;
+    width: 100%;   
+}
+.my-auto-table{
+    height: 500px auto;
+    overflow-y: auto;
+}
+ 
+
+.my-news-section{
+    
+    margin: 10px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 10px;
+    
+     
+     
+}
+
+
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides{
+	position: relative;
+	height: 150px;
+	padding: 0px;
+	margin: 0px auto;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+	font-size: 54px;
+	padding: 40px;
+	box-sizing: border-box;
+	 
+	color: #fff;
+text-align:center;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1192px)
+{
+  .slide
+    {
+       font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+  .slide
+    {
+       font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
+
+#wrapper {
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	width: 100%;
+	height: 50%;
+	margin-top: -1px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+#carousel {
+	margin-top: -100px;
+}
+#carousel div {
+	text-align: center;
+	width: 200px;
+	height: 250px;
+	float: left;
+	position: relative;
+}
+#carousel div img {
+	border: none;
+}
+#carousel div span {
+	display: none;
+}
+#carousel div:hover span {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+	padding: 2px 0;
+	margin: 0 0 0 -50px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	border-radius: 3px;
+}
+
+.my-heading-index{
+        padding-bottom: 50px;
+}
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+  .my-form-label, .file-upload
+    {
+       max-width: 100%;
+    }
+}
+
+
+
+
+
+.container12 {
+    width: 80%;
+    height: 18em;
+    margin: 1em auto;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 5s linear infinite;
+}
+
+.container12:hover > .marquee {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -11em }
+}
+
+/* Make it look pretty */
+.microsoft .marquee {
+	margin: 0;
+    padding: 0 1em;
+    line-height: 1.5em;
+    
+}
+
+.microsoft:before, .microsoft::before,
+.microsoft:after,  .microsoft::after {
+    left: 0;
+    z-index: 1;
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    width: 100%; height: 2em;
+    background-image: linear-gradient(180deg, #FFF, rgba(255,255,255,0));
+}
+
+.microsoft:after, .microsoft::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.microsoft:before, .microsoft::before {
+    top: 0;
+}
+
+/* Style the links */
+.vanity {
+    color: #333;
+    text-align: center;
+    font: .75em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.vanity a, .microsoft a {
+    color: #1570A6;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
